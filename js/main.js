@@ -26,6 +26,13 @@ $(document).ready(function() {
     }, 400);
   });
 
+
+  var details = document.getElementById('details');
+var summary = document.getElementById('summary');
+
+details.addEventListener('toggle', function() {
+  summary.textContent = details.open ? "Less ▲" : "More ▼";
+});
   // tooltips function
   $(function() {
     $('[data-toggle="tooltip"]').tooltip()
