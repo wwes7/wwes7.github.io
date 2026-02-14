@@ -2,138 +2,612 @@
 <html lang="en">
 
 <head>
-   <!-- Metadata for the Webpage -->
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Huanqi Yang</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Publications of Huanqi Yang — Mobile Agentic Systems, Generative AI for Sensing, Physical Layer Security.">
+  <meta name="author" content="Huanqi Yang">
+  <title>Publications | Huanqi Yang</title>
+  <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-   <!-- Favicons -- We recommend this site for generating favicons: https://www.favicon-generator.org/ -->
-   <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
-   <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
-   <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
-   <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
-   <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
-   <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
-   <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
-   <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
-   <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-   <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
-   <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-   <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
-   <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-   <meta name="msapplication-TileColor" content="#ffffff">
-   <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
-   <meta name="theme-color" content="#ffffff">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
-   <!-- Bootstrap CSS files-->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 
-   <!-- jQuery UI CSS (optional) -->
-   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 
-   <!-- Google web fonts -->
-   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600" rel="stylesheet">
+  <!-- Local styles -->
+  <link rel="stylesheet" href="css/main.css">
 
-   <!-- Font Awesome Web Icons -->
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-   <!-- Academicons Courtesy of https://jpswalsh.github.io/academicons/ -->
-   <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-
-   <!-- Local styles -->
-   <link rel="stylesheet" href="css/main.css">
-
+  <style>
+    /* Publications page styles */
+    .pub-section {
+      margin-bottom: 3rem;
+    }
+    .pub-section h3 {
+      font-size: 2rem;
+      color: #24292e !important;
+      border-bottom: 2px solid #e1e4e8;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .pub-item {
+      padding: 12px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .pub-item:last-child {
+      border-bottom: none;
+    }
+    .pub-title {
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: #24292e;
+      line-height: 1.4;
+    }
+    .pub-venue {
+      display: inline-block;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #fff;
+      background-color: #1585cf;
+      padding: 1px 8px;
+      border-radius: 3px;
+      margin-right: 6px;
+      vertical-align: middle;
+    }
+    .pub-venue-journal {
+      background-color: #28a745;
+    }
+    .pub-venue-workshop {
+      background-color: #6f42c1;
+    }
+    .pub-venue-preprint {
+      background-color: #6c757d;
+    }
+    .pub-venue-book {
+      background-color: #e36209;
+    }
+    .pub-authors {
+      font-size: 1.4rem;
+      color: #586069;
+      margin-top: 4px;
+    }
+    .pub-authors b {
+      color: #24292e;
+    }
+    .pub-info {
+      font-size: 1.3rem;
+      color: #999;
+      font-style: italic;
+      margin-top: 2px;
+    }
+    .pub-links {
+      margin-top: 6px;
+    }
+    .pub-links a {
+      font-size: 1.2rem;
+      margin-right: 4px;
+    }
+    .pub-award {
+      display: inline-block;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #fff;
+      background-color: #d32f2f;
+      padding: 1px 8px;
+      border-radius: 3px;
+      margin-left: 4px;
+    }
+    .pub-header {
+      margin-bottom: 2rem;
+    }
+    .pub-header p {
+      font-size: 1.5rem;
+      color: #586069;
+    }
+    .pub-header .scholar-link {
+      font-size: 1.4rem;
+    }
+    .pub-filter {
+      margin-bottom: 2rem;
+    }
+    .pub-filter .btn {
+      margin-right: 5px;
+      margin-bottom: 5px;
+      border-radius: 20px;
+      font-size: 1.3rem;
+      padding: 4px 14px;
+    }
+    .pub-filter .btn.active {
+      background-color: #1585cf;
+      color: white;
+      border-color: #1585cf;
+    }
+    .pub-year-group {
+      margin-top: 1.5rem;
+    }
+    .pub-year-label {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #1585cf;
+      margin-bottom: 0.5rem;
+    }
+  </style>
 </head>
 
 <body>
 
-   <!-- navbar include -->
-   <div w3-include-html="navbar.html"></div>
+  <!-- navbar include -->
+  <div w3-include-html="navbar.html"></div>
 
-   <div class="spacer-div-3 hidden-xs hidden-xs"></div>
+  <div class="spacer-div-3 hidden-xs hidden-xs"></div>
 
-   <!-- Main content    -->
-   <div id="main-container" class="container">
+  <!-- Main content -->
+  <div id="main-container" class="container">
+    <div class="row">
+      <div class="col-sm-12">
 
-      <div class="row">
-         <div class="col-sm-12">
-            <h1>Publications</h1>
-            
+        <!-- Header -->
+        <div class="pub-header">
+          <h1>Publications</h1>
+          <p>
+            <i class="ai ai-google-scholar"></i>
+            <a href="https://scholar.google.com/citations?user=G8Hf6WUAAAAJ&hl=EN&oi=ao" class="scholar-link" target="_blank" rel="noopener noreferrer">
+              Full list on Google Scholar »
+            </a>
+          </p>
+        </div>
 
-            <!-- Publication -->
-            <h3 class="push-down-4"><span>Published Papers</span></h3>
+        <!-- ============================================================ -->
+        <!-- PREPRINT -->
+        <!-- ============================================================ -->
+        <div class="pub-section">
+          <h3><i class="fas fa-file-alt" style="color:#6c757d; margin-right:8px;"></i>Preprint</h3>
 
-            <h5>Conference Papers            </h5>
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-preprint">arXiv</span>
+            <span class="pub-title">RF Sensing Security and Malicious Exploitation: A Comprehensive Survey</span>
+            <div class="pub-authors">
+              Mingda Han, <b>Huanqi Yang</b>, Wenhao Li, Weitao Xu, Xiuzhen Cheng, Prasant Mohapatra, and Pengfei Hu
+            </div>
+            <div class="pub-info">arXiv preprint arXiv:2504.10969, April 2025.</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/pdf/2504.10969" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+              <span class="__dimensions_badge_embed__" data-doi="10.48550/arXiv.2504.10969" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+            </div>
+          </div>
+        </div>
 
-            <ul class="publications">
-               <li><b>[IPSN 2023]</b> Zehua Sun, Tao Ni, <b>Huanqi Yang</b>, Kai Liu, Yu Zhang, Tao Gu and Weitao Xu, "FLoRa: Energy-Efficient, Reliable, and Beamforming-Assisted Over-The-Air Firmware Update in LoRa Networks", accepted by IPSN 2023.</li>
-               <li><b>[PerCom 2023]</b> Di Duan, <b>Huanqi Yang</b>, Guohao Lan, Tianxing Li, Xiaohua Jia, and Weitao Xu, "EMGSense: A Low-Effort Self-Supervised Domain Adaptation Framework for EMG Sensing", accepted by Percom 2023.</li>
-               <li><b>[INFOCOM 2023]</b> <b>Huanqi Yang</b>, Zehua Sun, Hongbo Liu, Xianjin Xia, Yu Zhang, Tao Gu, Gerhard Hancke, and Weitao Xu. "ChirpKey: A Chirp-level Information-based Key Generation Scheme for LoRa Networks via Perturbed Compressed Sensing", Accepted by INFOCOM 2023. <a href="pdfs/INFOCOM2023_camera_ready.pdf">PDF</a></li>
-               <li><b>[ICDCS 2022]</b><b>Huanqi Yang</b>, Hongbo Liu, Yuezhong Wu, Chengwen Luo, Wei Li, Albert Zomaya, Linqi Song and Weitao Xu. "Vehicle-Key: A Secret Key Establishment Scheme for LoRa-enabled IoV Communications", Accepted by ICDCS 2022. <a href="pdfs/ICDCS2022_camera_ready.pdf">PDF</a></li>
-               <!-- <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
-               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
-               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li> -->
-            </ul>
-            <h5>Journal Papers</h5>
-            <ul class="publications">
-               <li><b>[TMC]</b> Weitao Xu, <b>Huanqi Yang</b>, Jiongzhang Chen, Chengwen Luo, Jia Zhang, Yuliang Zhao, Wen Jung Li.(2022) WashRing: An Energy-efficient and Highly Accurate Handwashing Monitoring System via Smart Ring. accepted by IEEE Transactions on Mobile Computing in December 2022. <a href="https://ieeexplore.ieee.org/document/9973282/">PDF</a></li>
-               <li><b>[TOSN]</b> Zehua Sun, <b>Huanqi Yang</b>, Kai Liu, Zhimeng Yin, Zhenjiang Li, Weitao Xu.(2021) Recent Advances in LoRa: A Comprehensive Survey. accepted by ACM Transactions on Sensor Network in June 2022. <a href="https://dl.acm.org/doi/abs/10.1145/3543856">PDF</a></li>
-               <li><b>[J-BHI]</b> Jianbiao Xiao, Qingsong Liu, <b>Huanqi Yang</b>, Jiahao Liu, Ning Wang, Zhen Zhu, Yulong Chen, Yu Long, Liang Chang, Liang Zhou, and Jun Zhou.(2021) ULECGNet: An Ultra-Lightweight End-to-End ECG Classification Neural Network. IEEE Journal of Biomedical and Health Informatics 26 (1), 206-217. <a href="https://ieeexplore.ieee.org/document/9460816">PDF</a></li>  
-            </ul>
+        <!-- ============================================================ -->
+        <!-- CONFERENCE -->
+        <!-- ============================================================ -->
+        <div class="pub-section">
+          <h3><i class="fas fa-users" style="color:#1585cf; margin-right:8px;"></i>Conference Papers</h3>
 
-            <!-- <h5>Submitted for Publication</h5>
+          <!-- 2026 -->
+          <div class="pub-year-group">
+            <div class="pub-year-label">2026</div>
 
-            <ul class="publications">
-               <li>LastName, P., & Lastname, Q. (1999). <em>Book title goes here</em> (2nd ed.) City, CA: Publishing House.</li>
-               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
-               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
-               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
-            </ul>
+            <div class="pub-item">
+              <span class="pub-venue">SenSys 2026</span>
+              <span class="pub-title">AutoEmbed: Towards Automated Software Development for Generic Embedded IoT Systems via LLMs</span>
+              <div class="pub-authors">
+                <b>Huanqi Yang</b>, Mingzhe Li, Mingda Han, Zhenjiang Li, and Weitao Xu
+              </div>
+              <div class="pub-info">Proceedings of the 24th ACM Conference on Embedded Networked Sensor Systems, 2026. <em>(To appear)</em></div>
+              <div class="pub-links">
+                <a href="https://embedgenius3.github.io/" class="btn btn-success btn-xs"><font color="white">Project</font></a>
+              </div>
+            </div>
+          </div>
 
-            <h5>Working Papers</h5>
+          <!-- 2025 -->
+          <div class="pub-year-group">
+            <div class="pub-year-label">2025</div>
 
-            <ul class="publications">
-               <li>LastName, P., & Lastname, Q. (1999). <em>Book title goes here</em> (2nd ed.) City, CA: Publishing House.</li>
-               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
-               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
-               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
-            </ul> -->
+            <div class="pub-item">
+              <span class="pub-venue">INFOCOM 2025</span>
+              <span class="pub-title">iRadar: Synthesizing Millimeter-Waves from Wearable Inertial Inputs for Human Gesture Sensing</span>
+              <div class="pub-authors">
+                <b>Huanqi Yang</b>, Mingda Han, Xinyue Li, Di Duan, Tianxing Li, and Weitao Xu
+              </div>
+              <div class="pub-info">Proceedings of the 2025 IEEE International Conference on Computer Communications, London, United Kingdom, May 2025.</div>
+              <div class="pub-links">
+                <a href="https://arxiv.org/pdf/2412.15980" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+                <a href="ppts/infocom_iRadar.pdf" class="btn btn-primary btn-xs"><font color="white">Slides</font></a>
+                <span class="__dimensions_badge_embed__" data-doi="10.1109/INFOCOM55648.2025.11044481" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+              </div>
+            </div>
+          </div>
 
-         </div>
+          <!-- 2023 -->
+          <div class="pub-year-group">
+            <div class="pub-year-label">2023</div>
+
+            <div class="pub-item">
+              <span class="pub-venue">SenSys 2023</span>
+              <span class="pub-title">XGait: Cross-Modal Translation via Deep Generative Sensing for RF-based Gait Recognition</span>
+              <div class="pub-authors">
+                <b>Huanqi Yang</b>, Mingda Han, Mingda Jia, Zehua Sun, Pengfei Hu, Yu Zhang, Tao Gu, and Weitao Xu
+              </div>
+              <div class="pub-info">Proceedings of the 21st ACM Conference on Embedded Networked Sensor Systems, Istanbul, Turkiye, November 2023.</div>
+              <div class="pub-links">
+                <a href="pdfs/2023_Sensys_XGait camera_ready.pdf" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+                <a href="ppts/XGait_SlidesV3.pdf" class="btn btn-primary btn-xs"><font color="white">Slides</font></a>
+                <span class="__dimensions_badge_embed__" data-doi="10.1145/3625687.3625792" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+              </div>
+            </div>
+
+            <div class="pub-item">
+              <span class="pub-venue">MobiHoc 2023</span>
+              <span class="pub-title">Wave-for-Safe: Multisensor-based Mutual Authentication for Unmanned Delivery Vehicle Services</span>
+              <div class="pub-authors">
+                <b>Huanqi Yang*</b>, Mingda Han*, Shuyao Shi, Zhenyu Yan, Guoliang Xing, Jianping Wang, and Weitao Xu
+              </div>
+              <div class="pub-info">Proceedings of the 2023 International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing, Washington DC, USA, October 2023.</div>
+              <div class="pub-links">
+                <a href="pdfs/mobihoc23_w4s.pdf" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+                <a href="ppts/mobihoc_w4s.pdf" class="btn btn-primary btn-xs"><font color="white">Slides</font></a>
+                <span class="__dimensions_badge_embed__" data-doi="10.1145/3565287.3610253" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+              </div>
+            </div>
+
+            <div class="pub-item">
+              <span class="pub-venue">INFOCOM 2023</span>
+              <span class="pub-title">ChirpKey: A Chirp-level Information-based Key Generation Scheme for LoRa Networks via Perturbed Compressed Sensing</span>
+              <div class="pub-authors">
+                <b>Huanqi Yang</b>, Zehua Sun, Hongbo Liu, Xianjin Xia, Yu Zhang, Tao Gu, Gerhard Hancke, and Weitao Xu
+              </div>
+              <div class="pub-info">Proceedings of the 2023 IEEE International Conference on Computer Communications, New York area, USA, May 2023.</div>
+              <div class="pub-links">
+                <a href="pdfs/INFOCOM2023_camera_ready.pdf" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+                <a href="ppts/infocom2023_chirpkey.pdf" class="btn btn-primary btn-xs"><font color="white">Slides</font></a>
+                <span class="__dimensions_badge_embed__" data-doi="10.1109/INFOCOM53939.2023.10228886" data-style="small_rectangle"></span>
+              </div>
+            </div>
+
+            <div class="pub-item">
+              <span class="pub-venue">IPSN 2023</span>
+              <span class="pub-title">FLoRa: Energy-Efficient, Reliable, and Beamforming-Assisted Over-The-Air Firmware Update in LoRa Networks</span>
+              <div class="pub-authors">
+                Zehua Sun, Tao Ni, <b>Huanqi Yang</b>, Kai Liu, Yu Zhang, Tao Gu and Weitao Xu
+              </div>
+              <div class="pub-info">Proceedings of the 2023 International Conference on Information Processing in Sensor Networks, San Antonio, USA, May 2023.</div>
+              <div class="pub-links">
+                <a href="pdfs/ipsn2023_flora.pdf" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+                <span class="__dimensions_badge_embed__" data-doi="10.1145/3583120.3586963" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+              </div>
+            </div>
+
+            <div class="pub-item">
+              <span class="pub-venue">PerCom 2023</span>
+              <span class="pub-title">EMGSense: A Low-Effort Self-Supervised Domain Adaptation Framework for EMG Sensing</span>
+              <span class="pub-award">🏆 Best Paper Award</span>
+              <div class="pub-authors">
+                Di Duan, <b>Huanqi Yang</b>, Guohao Lan, Tianxing Li, Xiaohua Jia, and Weitao Xu
+              </div>
+              <div class="pub-info">Proceedings of the 21st International Conference on Pervasive Computing and Communications, Atlanta, USA, March 2023.</div>
+              <div class="pub-links">
+                <a href="pdfs/percon2023_emgsense.pdf" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+                <span class="__dimensions_badge_embed__" data-doi="10.1109/PERCOM56429.2023.10099164" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2022 -->
+          <div class="pub-year-group">
+            <div class="pub-year-label">2022</div>
+
+            <div class="pub-item">
+              <span class="pub-venue">ICDCS 2022</span>
+              <span class="pub-title">Vehicle-Key: A Secret Key Establishment Scheme for LoRa-enabled IoV Communications</span>
+              <div class="pub-authors">
+                <b>Huanqi Yang</b>, Hongbo Liu, Yuezhong Wu, Chengwen Luo, Wei Li, Albert Zomaya, Linqi Song and Weitao Xu
+              </div>
+              <div class="pub-info">Proceedings of the 42nd International Conference on Distributed Computing Systems, Bologna, Italy, July 2022.</div>
+              <div class="pub-links">
+                <a href="pdfs/ICDCS2022_camera_ready.pdf" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+                <a href="ppts/ICDCS_18_vehicle_key.pdf" class="btn btn-primary btn-xs"><font color="white">Slides</font></a>
+                <span class="__dimensions_badge_embed__" data-doi="10.1109/ICDCS54860.2022.00081" data-style="small_rectangle"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============================================================ -->
+        <!-- JOURNAL -->
+        <!-- ============================================================ -->
+        <div class="pub-section">
+          <h3><i class="fas fa-book" style="color:#28a745; margin-right:8px;"></i>Journal Papers</h3>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-journal">IEEE TMC</span>
+            <span class="pub-title">Chirp-level Information-based Collaborative Key Generation for LoRa Networks via Perturbed Compressed Sensing</span>
+            <div class="pub-authors">
+              <b>Huanqi Yang</b>, Zehua Sun, Hongbo Liu, Xianjin Xia, Yu Zhang, Tao Gu, Gerhard Hancke, and Weitao Xu
+            </div>
+            <div class="pub-info">IEEE Transactions on Mobile Computing, Early Access, July 2025.</div>
+            <div class="pub-links">
+              <a href="https://ieeexplore.ieee.org/document/11087630" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+              <span class="__dimensions_badge_embed__" data-doi="10.1109/TMC.2025.3591298" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-journal">IEEE TMC</span>
+            <span class="pub-title">Seeing the Invisible: Recovering Surveillance Video with COTS mmWave Radar</span>
+            <div class="pub-authors">
+              Mingda Han, <b>Huanqi Yang</b>, Mingda Jia, Weitao Xu, Yanni Yang, Zhijian Huang, Jun Luo, Xiuzhen Cheng, and Pengfei Hu
+            </div>
+            <div class="pub-info">IEEE Transactions on Mobile Computing</div>
+            <div class="pub-links">
+              <a href="https://www.computer.org/csdl/journal/tm/5555/01/10638821/1ZxyZtIe2NG" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+              <span class="__dimensions_badge_embed__" data-doi="10.1109/TMC.2024.3445507" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-journal">IEEE TMC</span>
+            <span class="pub-title">Scenario-Adaptive Key Establishment Scheme for LoRa-enabled IoV Communications</span>
+            <div class="pub-authors">
+              <b>Huanqi Yang</b>, Di Duan, Hongbo Liu, Chengwen Luo, Yuezhong Wu, Wei Li, Albert Y. Zomaya, Linqi Song, and Weitao Xu
+            </div>
+            <div class="pub-info">IEEE Transactions on Mobile Computing</div>
+            <div class="pub-links">
+              <a href="https://www.computer.org/csdl/journal/tm/5555/01/10582429/1YfTQ8PHYju" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+              <span class="__dimensions_badge_embed__" data-doi="10.1109/TMC.2024.3421659" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-journal">IEEE/ACM ToN</span>
+            <span class="pub-title">InaudibleKey2.0: Deep Learning-empowered Mobile Device Pairing Protocol based on Inaudible Acoustic Signals</span>
+            <div class="pub-authors">
+              <b>Huanqi Yang</b>, Zhenjiang Li, Chengwen Luo, Bo Wei, Weitao Xu
+            </div>
+            <div class="pub-info">IEEE/ACM Transactions on Networking</div>
+            <div class="pub-links">
+              <a href="https://www.computer.org/csdl/journal/nt/5555/01/10550162/1Xx5aONWLpS" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+              <span class="__dimensions_badge_embed__" data-doi="10.1109/TNET.2024.3407783" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-journal">ACM ToSN</span>
+            <span class="pub-title">FLoRa+: Energy-efficient, Reliable, Beamforming-assisted, and Secure Over-the-air Firmware Update in LoRa Networks</span>
+            <div class="pub-authors">
+              Zehua Sun, Tao Ni, <b>Huanqi Yang</b>, Kai Liu, Yu Zhang, Tao Gu and Weitao Xu
+            </div>
+            <div class="pub-info">ACM Transactions on Sensor Networks</div>
+            <div class="pub-links">
+              <a href="https://dl.acm.org/doi/10.1145/3641548" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+              <span class="__dimensions_badge_embed__" data-doi="10.1145/3641548" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-journal">ACM ToSN</span>
+            <span class="pub-title">mmSign: mmWave-based Few-Shot Online Handwritten Signature Verification</span>
+            <div class="pub-authors">
+              Mingda Han, <b>Huanqi Yang</b>, Tao Ni, Di Duan, Mengzhe Ruan, Yongliang Chen, Jia Zhang, Weitao Xu
+            </div>
+            <div class="pub-info">ACM Transactions on Sensor Networks</div>
+            <div class="pub-links">
+              <a href="https://dl.acm.org/doi/10.1145/3605945" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+              <span class="__dimensions_badge_embed__" data-doi="10.1145/3605945" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-journal">IEEE TMC</span>
+            <span class="pub-title">WashRing: An Energy-efficient and Highly Accurate Handwashing Monitoring System via Smart Ring</span>
+            <div class="pub-authors">
+              Weitao Xu, <b>Huanqi Yang</b>, Jiongzhang Chen, Chengwen Luo, Jia Zhang, Yuliang Zhao, Wen Jung Li
+            </div>
+            <div class="pub-info">IEEE Transactions on Mobile Computing</div>
+            <div class="pub-links">
+              <a href="pdfs/WashRing_TMC.pdf" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+              <span class="__dimensions_badge_embed__" data-doi="10.1109/TMC.2022.3227299" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-journal">ACM ToSN</span>
+            <span class="pub-title">Recent Advances in LoRa: A Comprehensive Survey</span>
+            <div class="pub-authors">
+              Zehua Sun, <b>Huanqi Yang</b>, Kai Liu, Zhimeng Yin, Zhenjiang Li, Weitao Xu
+            </div>
+            <div class="pub-info">ACM Transactions on Sensor Networks</div>
+            <div class="pub-links">
+              <a href="pdfs/LoRa_survey_ToSN.pdf" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+              <span class="__dimensions_badge_embed__" data-doi="10.1145/3543856" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-journal">IEEE JBHI</span>
+            <span class="pub-title">ULECGNet: An Ultra-Lightweight End-to-End ECG Classification Neural Network</span>
+            <span class="pub-award">📰 Cover Article</span>
+            <div class="pub-authors">
+              Jianbiao Xiao, Jiahao Liu, <b>Huanqi Yang</b>, Qingsong Liu, Ning Wang, Zhen Zhu, Yulong Chen, Yu Long, Liang Chang, Liang Zhou, Jun Zhou
+            </div>
+            <div class="pub-info">IEEE Journal of Biomedical and Health Informatics</div>
+            <div class="pub-links">
+              <a href="https://ieeexplore.ieee.org/abstract/document/9460816" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+              <span class="__dimensions_badge_embed__" data-doi="10.1109/JBHI.2021.3090421" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============================================================ -->
+        <!-- WORKSHOP / SHORT PAPERS -->
+        <!-- ============================================================ -->
+        <div class="pub-section">
+          <h3><i class="fas fa-comments" style="color:#6f42c1; margin-right:8px;"></i>Workshop &amp; Short Papers</h3>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-workshop">SmartWear 2025</span>
+            <span class="pub-title">WearGuard: Defeating Adversarial Attacks in Wearable AI-based Activity Recognition Systems</span>
+            <div class="pub-authors">
+              Yihan Wang, <b>Huanqi Yang</b>, and Weitao Xu
+            </div>
+            <div class="pub-info">Proceedings of the 3rd ACM Workshop on Smart Wearable Systems and Applications</div>
+            <div class="pub-links">
+              <a href="https://dl.acm.org/doi/epdf/10.1145/3737903.3768565" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+              <span class="__dimensions_badge_embed__" data-doi="10.1145/3737903.3768565" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-workshop">DeepWireless 2025</span>
+            <span class="pub-title">LLMKey: LLM-Powered Wireless Key Generation Scheme for Next-Gen IoV Systems</span>
+            <div class="pub-authors">
+              <b>Huanqi Yang</b> and Weitao Xu
+            </div>
+            <div class="pub-info">Proceedings of the 3rd Workshop on Deep Learning for Wireless Communications, Sensing, and Security</div>
+            <div class="pub-links">
+              <a href="https://www.arxiv.org/abs/2502.16199" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-workshop">DeepWireless 2025</span>
+            <span class="pub-title">NERecon: Neural-Enhanced Reconciliation for Secure Physical Layer Key Generation</span>
+            <div class="pub-authors">
+              Aochen Jiao, <b>Huanqi Yang</b>, and Weitao Xu
+            </div>
+            <div class="pub-info">Proceedings of the 3rd Workshop on Deep Learning for Wireless Communications, Sensing, and Security</div>
+            <div class="pub-links">
+              <a href="#" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-workshop">EIFCom 2024</span>
+            <span class="pub-title">TransCompressor: LLM-Powered Multimodal Data Compression for Smart Transportation</span>
+            <span class="pub-award">🏆 Best Paper Award</span>
+            <div class="pub-authors">
+              <b>Huanqi Yang</b>, Rucheng Wu, and Weitao Xu
+            </div>
+            <div class="pub-info">Proceedings of the 1st ACM International Workshop on Mobile Computing with Efficient and Interactive Foundation Models</div>
+            <div class="pub-links">
+              <a href="https://doi.org/10.1145/3636534.3698120" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+              <span class="__dimensions_badge_embed__" data-doi="10.1145/3636534.3698120" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-workshop">BodySys 2024</span>
+            <span class="pub-title">XSolar: A Generative Framework for Solar-based Human Gesture Sensing via Wearable Signals</span>
+            <div class="pub-authors">
+              Rucheng Wu, <b>Huanqi Yang</b>, and Weitao Xu
+            </div>
+            <div class="pub-info">Proceedings of the 10th Workshop on Body-centric Computing Systems</div>
+            <div class="pub-links">
+              <a href="https://dl.acm.org/doi/10.1145/3662009.3662024" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+              <span class="__dimensions_badge_embed__" data-doi="10.1145/3662009.3662024" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-workshop">CSCAIoTSys 2024</span>
+            <span class="pub-title">Are You Being Tracked? Discover the Power of Zero-Shot Trajectory Tracing with LLMs!</span>
+            <div class="pub-authors">
+              <b>Huanqi Yang</b>, Sijie Ji, Rucheng Wu, and Weitao Xu
+            </div>
+            <div class="pub-info">Proceedings of Workshop on Coupling of Sensing &amp; Computing in AIoT Systems</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2403.06201" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+              <span class="__dimensions_badge_embed__" data-doi="10.1109/CSCAIoT62585.2024.00008" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-workshop">UbiComp CPD 2022</span>
+            <span class="pub-title">MobileKey: A Fast and Robust Key Generation System for Mobile Devices</span>
+            <div class="pub-authors">
+              Keqi Song, Zimeng Zhu, <b>Huanqi Yang</b>, Tao Ni, and Weitao Xu
+            </div>
+            <div class="pub-info">Proceedings of Workshop on Coupling of Sensing &amp; Computing in AIoT Systems</div>
+            <div class="pub-links">
+              <a href="https://doi.org/10.1145/3544793.3560413" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+              <span class="__dimensions_badge_embed__" data-doi="10.1145/3544793.3560413" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============================================================ -->
+        <!-- BOOK CHAPTER -->
+        <!-- ============================================================ -->
+        <div class="pub-section">
+          <h3><i class="fas fa-bookmark" style="color:#e36209; margin-right:8px;"></i>Book Chapter</h3>
+
+          <div class="pub-item">
+            <span class="pub-venue pub-venue-book">IET Book</span>
+            <span class="pub-title">Physical Layer Key Generation for LoRa-Enabled Networks</span>
+            <div class="pub-authors">
+              <b>Huanqi Yang</b>, Zehua Sun, Weitao Xu
+            </div>
+            <div class="pub-info">In IET Book <em>Physical Layer Security for 6G Networks</em></div>
+            <div class="pub-links">
+              <a href="https://shop.theiet.org/physical-layer-security-for-6g-networks" class="btn btn-primary btn-xs"><font color="white">PDF</font></a>
+            </div>
+          </div>
+        </div>
+
       </div>
+    </div>
+  </div>
 
-   </div>
+  <!-- Back-to-top button -->
+  <a role="button" id="topper" data-toggle="tooltip" data-placement="top" title="Top" class="btn scroll-link" href="#top"><i class="fa fa-fw fa-2x fa-caret-up" aria-hidden="true"></i></a>
 
-   <!-- Back-to-top button -->
-   <a role="button" id="topper" data-toggle="tooltip" data-placement="top" title="Top" class="btn scroll-link" href="#top"><i class="fa fa-fw fa-2x fa-caret-up" aria-hidden="true"></i></a>
+  <!-- footer include -->
+  <div w3-include-html="footer.html"></div>
 
-   <!-- footer include -->
-   <div w3-include-html="footer.html"></div>
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-   <!-- jQuery -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Bootstrap JS Library -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 
-   <!-- Bootstrap JS Library -->
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <!-- html file include script | used for navbar and footer -->
+  <script src="js/w3data.js"></script>
+  <script>
+    w3IncludeHTML()
+  </script>
 
-   <!-- html file include script | used for navbar and footer -->
-   <script src="js/w3data.js"></script>
-   <script>
-      w3IncludeHTML()
-   </script>
+  <!-- Local scripts -->
+  <script src="js/main.js"></script>
 
-   <!-- Local scripts -->
-   <script src="js/main.js"></script>
-
-   <script>
-      $(document).ready(function() {
-         $("li#research a").addClass("active");
-         $("li#research a").addClass("hvr-bubble-bottom");
-
-      });
-   </script>
+  <script>
+    $(document).ready(function () {
+      $("li#research a").addClass("active");
+      $("li#research a").addClass("hvr-bubble-bottom");
+    });
+  </script>
 
 </body>
 
