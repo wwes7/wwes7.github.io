@@ -28,11 +28,13 @@ $(document).ready(function() {
 
 
   var details = document.getElementById('details');
-var summary = document.getElementById('summary');
+  var summary = document.getElementById('summary');
 
-details.addEventListener('toggle', function() {
-  summary.textContent = details.open ? "Less ▲" : "More ▼";
-});
+  if (details && summary) {
+    details.addEventListener('toggle', function() {
+      summary.textContent = details.open ? "Less ▲" : "More ▼";
+    });
+  }
   // tooltips function
   $(function() {
     $('[data-toggle="tooltip"]').tooltip()
