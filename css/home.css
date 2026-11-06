@@ -1,0 +1,64 @@
+/* Home page: plain academic layout */
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+  background: #fff;
+}
+a { color: #2a6db5; text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1, h2, h3 { font-weight: 400; color: #222; margin: 0; }
+img, video, iframe { max-width: 100%; }
+
+.page { max-width: 1080px; margin: 0 auto; padding: 36px 24px 24px; }
+
+/* Profile */
+.profile { display: grid; grid-template-columns: 280px 1fr; gap: 36px; align-items: start; }
+.photo { width: 280px; height: auto; display: block; }
+.intro h1 { font-size: 34px; letter-spacing: 0.02em; font-variant: small-caps; line-height: 1.1; }
+.links { margin: 4px 0 16px; font-size: 14px; color: #888; }
+.links a { color: #222; }
+.titles { font-size: 14px; color: #555; margin: 0 0 12px; }
+.intro p { margin: 0 0 12px; }
+.intro p b { color: #222; }
+
+/* Columns */
+.columns { display: grid; grid-template-columns: 1fr 300px; gap: 48px; margin-top: 40px; }
+h2 { font-size: 22px; font-variant: small-caps; letter-spacing: 0.02em; margin: 8px 0 14px; }
+
+.areas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 36px; }
+.area img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; margin-bottom: 8px; }
+.area h3 { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+.area p { font-size: 13.5px; color: #555; margin: 0; }
+
+.proj { display: grid; grid-template-columns: 240px 1fr; gap: 18px; margin-bottom: 26px; }
+.media { position: relative; aspect-ratio: 16 / 9; background: #f2f2f2; }
+.media iframe, .media video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; object-fit: contain; background: #fff; }
+.ptitle { font-weight: 700; color: #222; display: block; line-height: 1.4; }
+.authors { margin: 4px 0 0; font-size: 13.5px; color: #555; }
+.authors b { color: #222; }
+.venue { margin: 0; font-size: 13.5px; font-style: italic; color: #555; }
+.plinks { margin: 4px 0 0; font-size: 13.5px; }
+.plinks a { margin-right: 12px; }
+.more { margin-top: 4px; }
+
+/* Sidebar */
+.news, .plain { list-style: none; margin: 0 0 28px; padding: 0; font-size: 14px; }
+.news li { margin-bottom: 10px; }
+.news span { color: #777; }
+.plain li { margin-bottom: 6px; }
+
+footer { border-top: 1px solid #e5e5e5; margin-top: 24px; padding-top: 14px; font-size: 13px; color: #888; }
+
+@media (max-width: 860px) {
+  .profile { grid-template-columns: 1fr; gap: 20px; }
+  .photo { width: 200px; }
+  .columns { grid-template-columns: 1fr; gap: 16px; }
+}
+@media (max-width: 560px) {
+  .areas { grid-template-columns: 1fr; }
+  .area img { width: 160px; }
+  .proj { grid-template-columns: 1fr; gap: 8px; }
+}

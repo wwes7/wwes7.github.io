@@ -2,408 +2,173 @@
 <html lang="en">
 
 <head>
-  <!-- Metadata for the Webpage -->
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Huanqi Yang is an agentic researcher working on Mobile Agentic Systems and AIoT. Ph.D. from City University of Hong Kong.">
-  <meta name="keywords" content="Huanqi Yang, AIoT, Mobile Agentic Systems, LLM Agent, Generative AI, Physical Layer Security, City University of Hong Kong, Hong Kong">
-  <meta name="author" content="Huanqi Yang">
   <title>Huanqi Yang</title>
-  <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-  <!-- Favicons -- We recommend this site for generating favicons: https://www.favicon-generator.org/ -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <meta name="description" content="Huanqi Yang works on embodied AI and physical agents: AI that senses the physical world through wireless and wearable signals, stays secure at the wireless layer, and acts by programming real devices (AutoEmbed, SenSys 2026). Ph.D. from City University of Hong Kong.">
+  <meta name="keywords" content="Huanqi Yang, 杨焕琦, AIoT, LLM agent, AutoEmbed, embedded systems, wireless sensing, mmWave, physical layer security, edge AI, City University of Hong Kong">
+  <meta name="author" content="Huanqi Yang">
+  <link rel="canonical" href="https://huanqiyang.site/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Huanqi Yang">
+  <meta property="og:description" content="Embodied AI and physical agents: wireless sensing, physical-layer security, and LLM agents that program embedded devices.">
+  <meta property="og:url" content="https://huanqiyang.site/">
+  <meta property="og:image" content="https://huanqiyang.site/img/huanqi-portrait.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Huanqi Yang",
+    "url": "https://huanqiyang.site/",
+    "image": "https://huanqiyang.site/img/huanqi-portrait.jpg",
+    "email": "mailto:huanqi.yang@my.cityu.edu.hk",
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "City University of Hong Kong" },
+    "sameAs": [
+      "https://scholar.google.com/citations?user=G8Hf6WUAAAAJ",
+      "https://www.linkedin.com/in/huanqi-yang-3302801a2/",
+      "https://autoembed.github.io/"
+    ]
+  }
+  </script>
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
-  <!-- Bootstrap CSS files-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
-  <!-- jQuery UI CSS (optional) -->
-  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-
-  <!-- Google web fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600" rel="stylesheet">
-
-  <!-- Font Awesome Web Icons -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-  <!-- Academicons Courtesy of https://jpswalsh.github.io/academicons/ -->
-  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-
-  <!-- Local styles -->
-  <link rel="stylesheet" href="css/main.css">
-
+  <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body>
+  <div class="page">
 
-  <!-- navbar include -->
-  <div w3-include-html="navbar.html"></div>
+    <header class="profile">
+      <img class="photo" src="img/huanqi-portrait.jpg" alt="Huanqi Yang" width="300" height="300">
+      <div class="intro">
+        <h1>Huanqi Yang</h1>
+        <nav class="links">
+          <a href="research.html">Publications</a> -
+          <a href="#projects">Projects</a> -
+          <a href="#awards">Awards</a> -
+          <a href="https://scholar.google.com/citations?user=G8Hf6WUAAAAJ&amp;hl=en">Scholar</a> -
+          <a href="https://www.linkedin.com/in/huanqi-yang-3302801a2/">LinkedIn</a>
+        </nav>
 
-  <div class="spacer-div-3 hidden-xs hidden-xs"></div>
+        <p class="titles">
+          Ph.D., Computer Science, City University of Hong Kong<br>
+          <a href="mailto:huanqi.yang@my.cityu.edu.hk">huanqi.yang@my.cityu.edu.hk</a>
+        </p>
 
-  <!-- Main content    -->
-  <div id="main-container" class="container">
+        <p>I work on <b>embodied AI</b> and <b>physical agents</b>: AI that leaves the screen, perceives the physical world, and acts on it through real devices. My goal is a physical agent that can sense its surroundings, protect what it senses, and reprogram the hardware it runs on, closing the loop between perception and action without a human engineer in the middle.</p>
+        <p>I have built each part of that loop. For <b>sensing</b>, I use radio and wearable signals to recognize gait, gestures, handwriting and health, without cameras. For <b>security</b>, I generate encryption keys directly from the wireless channel for LoRa and vehicle networks. For <b>action</b>, <a href="https://autoembed.github.io/">AutoEmbed</a> (SenSys 2026) is an LLM agent that writes, uploads and debugs firmware on real embedded boards, so the agent can deploy new sensing and security functions by itself.</p>
+        <p>This work has received the <b>Mark Weiser Best Paper Award</b> at IEEE PerCom 2023, the <b>Best Paper Award</b> at ACM EIFCom 2024, and a cover article in IEEE JBHI. I received my Ph.D. from City University of Hong Kong, advised by Prof. <a href="https://www.weitaoxu.com/">Weitao Xu</a>.</p>
+      </div>
+    </header>
 
-    <div class="row">
-      <div class="col-sm-3">
-        <div style="width:180px; margin:0 auto;">
-          <img src="img/bec171cce9641af1b54fefdfecd6e2eb.png" alt="Image of Huanqi Yang" style="width:100%; height:auto; border-radius:10px; display:block; margin-bottom:10px;">
-          <div class="social-links" style="display:flex; justify-content:center; gap:10px; margin-top:10px;">
-            <a href="mailto:huanqi.yang@my.cityu.edu.hk" title="Email" style="padding:5px;"><i class="fas fa-envelope" style="font-size:20px;"></i></a>
-            <a href="https://scholar.google.com/citations?user=G8Hf6WUAAAAJ&hl=EN&oi=ao" target="_blank" rel="noopener noreferrer" title="Google Scholar" style="padding:5px;"><i class="ai ai-google-scholar-square" style="font-size:20px;"></i></a>
-            <a href="https://www.linkedin.com/in/huanqi-yang-3302801a2/" target="_blank" rel="noopener noreferrer" title="LinkedIn" style="padding:5px;"><i class="fab fa-linkedin" style="font-size:20px;"></i></a>
+    <div class="columns">
+      <main>
+        <h2>Research</h2>
+        <div class="areas">
+          <div class="area">
+            <img src="img/research/genai-sensing.png" alt="" loading="lazy">
+            <h3>Wireless &amp; wearable sensing</h3>
+            <p>Generative and cross-modal models that turn radio and IMU signals into gait, gesture and health information. <a href="pdfs/2023_Sensys_XGait camera_ready.pdf">XGait</a>, <a href="https://arxiv.org/pdf/2412.15980">iRadar</a>, <a href="pdfs/percon2023_emgsense.pdf">EMGSense</a>.</p>
+          </div>
+          <div class="area">
+            <img src="img/research/physical-layer-security.png" alt="" loading="lazy">
+            <h3>Physical-layer security</h3>
+            <p>Key generation and authentication from the wireless channel for IoT and vehicles. <a href="pdfs/INFOCOM2023_camera_ready.pdf">ChirpKey</a>, <a href="pdfs/ICDCS2022_camera_ready.pdf">Vehicle-Key</a>, <a href="pdfs/mobihoc23_w4s.pdf">Wave-for-Safe</a>.</p>
+          </div>
+          <div class="area">
+            <img src="img/research/mobile-agentic-systems.png" alt="" loading="lazy">
+            <h3>Agents for embedded systems</h3>
+            <p>LLM agents that program IoT hardware, and efficient LLM inference on edge devices. <a href="https://autoembed.github.io/">AutoEmbed</a>, E²LLM.</p>
           </div>
         </div>
-      </div>
-      <div class="col-sm-8">
- <p class="about-me">I am an agentic researcher. I received my Ph.D. from <a href="https://www.cs.cityu.edu.hk/">the Department of Computer Science at City University of Hong Kong</a>, advised by Prof. <a href="https://www.weitaoxu.com/#about">Weitao Xu</a>. My work has been recognized through several prestigious accolades, including <strong>Best Paper Awards</strong> at IEEE PerCom 2023 and ACM EIFCom 2024, and a <strong>Cover Article</strong> in IEEE JBHI.</p>
-    
-    <p class="about-me">My research focuses on the following areas:</p>
-    <div style="display: flex; gap: 16px; margin-top: 12px; flex-wrap: wrap;">
-      <div style="text-align: center; flex: 1; min-width: 140px;">
-        <img src="img/research/mobile-agentic-systems.png" alt="Mobile Agentic Systems" style="width: 130px; height: 130px; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 6px rgba(0,0,0,0.08);">
-        <div style="margin-top: 6px; font-weight: 600; font-size: 12.5px; color: #333;">Mobile Agentic<br>Systems</div>
-      </div>
-      <div style="text-align: center; flex: 1; min-width: 140px;">
-        <img src="img/research/genai-sensing.png" alt="Generative AI for Sensing" style="width: 130px; height: 130px; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 6px rgba(0,0,0,0.08);">
-        <div style="margin-top: 6px; font-weight: 600; font-size: 12.5px; color: #333;">Generative AI<br>for Sensing</div>
-      </div>
-      <div style="text-align: center; flex: 1; min-width: 140px;">
-        <img src="img/research/physical-layer-security.png" alt="Physical Layer Security" style="width: 130px; height: 130px; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 6px rgba(0,0,0,0.08);">
-        <div style="margin-top: 6px; font-weight: 600; font-size: 12.5px; color: #333;">Physical Layer<br>Security</div>
-      </div>
-    </div>
-      </div>
-    </div>
-      <div class="col-md-pull-8">
-  <h3 class="push-down-3"><span>News</span></h3>
-  <ul id="news" style="list-style-type: none; padding-left: 0;">
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2026.6</span>
-      <strong>Benchmarking Memory Architectures for Mobile Agents</strong> appeared at <a href="https://autosys26.github.io/" style="color: #0066cc; text-decoration: none;">AutoSys'26</a> @ MobiSys.
-    </li>
 
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2026.5</span>
-      <a href="https://doi.org/10.1145/3774906.3800466" style="color: #0066cc; text-decoration: none;"><strong>AutoEmbed</strong></a> is now published in SenSys 2026.
-    </li>
+        <h2 id="projects">Selected projects</h2>
 
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2026.3</span>
-      <a href="https://doi.org/10.1109/TMC.2026.3676689" style="color: #0066cc; text-decoration: none;"><strong>E²LLM</strong></a> is now available online in IEEE TMC.
-    </li>
+        <article class="proj">
+          <div class="media"><iframe src="https://www.youtube-nocookie.com/embed/B7QqENnR1dg" title="AutoEmbed demo" loading="lazy" allowfullscreen></iframe></div>
+          <div>
+            <a class="ptitle" href="https://autoembed.github.io/">AutoEmbed: LLM-driven Automated Software Development for Generic Embedded IoT Systems</a>
+            <p class="authors"><b>Huanqi Yang</b>, Mingzhe Li, Mingda Han, Zhenjiang Li, Weitao Xu</p>
+            <p class="venue">ACM SenSys 2026</p>
+            <p class="plinks"><a href="https://doi.org/10.1145/3774906.3800466">paper</a> <a href="https://autoembed.github.io/">webpage</a> <a href="https://www.youtube.com/watch?v=B7QqENnR1dg">video</a></p>
+          </div>
+        </article>
 
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2026.3</span>
-      New preprints: <a href="https://arxiv.org/abs/2603.19584" style="color: #0066cc; text-decoration: none;"><strong>PowerLens</strong></a>, <a href="https://arxiv.org/abs/2603.27571" style="color: #0066cc; text-decoration: none;"><strong>RAGent</strong></a>, and <a href="https://arxiv.org/abs/2603.27562" style="color: #0066cc; text-decoration: none;"><strong>VoxAnchor</strong></a>.
-    </li>
+        <article class="proj">
+          <div class="media"><video src="img/demo/xgait.mp4" poster="img/demo/xgait.jpg" autoplay muted loop playsinline preload="none"></video></div>
+          <div>
+            <a class="ptitle" href="pdfs/2023_Sensys_XGait camera_ready.pdf">XGait: Cross-Modal Translation via Deep Generative Sensing for RF-based Gait Recognition</a>
+            <p class="authors"><b>Huanqi Yang</b>, Mingda Han, Mingda Jia, Zehua Sun, Pengfei Hu, Yu Zhang, Tao Gu, Weitao Xu</p>
+            <p class="venue">ACM SenSys 2023</p>
+            <p class="plinks"><a href="pdfs/2023_Sensys_XGait camera_ready.pdf">paper</a> <a href="ppts/XGait_SlidesV3.pdf">slides</a></p>
+          </div>
+        </article>
 
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2026.2</span>
-      <a href="https://doi.org/10.1109/TMC.2026.3666887" style="color: #0066cc; text-decoration: none;"><strong>RFInv</strong></a> is now available online in IEEE TMC.
-    </li>
+        <article class="proj">
+          <div class="media"><video src="img/demo/w4s.mp4" poster="img/demo/w4s.jpg" autoplay muted loop playsinline preload="none"></video></div>
+          <div>
+            <a class="ptitle" href="pdfs/mobihoc23_w4s.pdf">Wave-for-Safe: Multisensor-based Mutual Authentication for Unmanned Delivery Vehicle Services</a>
+            <p class="authors"><b>Huanqi Yang</b>*, Mingda Han*, Shuyao Shi, Zhenyu Yan, Guoliang Xing, Jianping Wang, Weitao Xu</p>
+            <p class="venue">ACM MobiHoc 2023</p>
+            <p class="plinks"><a href="pdfs/mobihoc23_w4s.pdf">paper</a> <a href="ppts/mobihoc_w4s.pdf">slides</a></p>
+          </div>
+        </article>
 
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2026.2</span>
-      Invited as the TPC member of <a href="https://mobiquitous.eai-conferences.org/2026/" style="color: #0066cc; text-decoration: none;">MobiQuitous'26</a>, <a href="https://fmsys-org.github.io/2026/" style="color: #0066cc; text-decoration: none;">FMSys'26</a>, <a href="https://www.eventcreate.com/e/headsys26" style="color: #0066cc; text-decoration: none;">HeadSys'26</a>, and <a href="https://www.ieeelcn.org/" style="color: #0066cc; text-decoration: none;">LCN'26</a>.
-    </li>
+        <article class="proj">
+          <div class="media"><video src="img/demo/vehiclekey.mp4" poster="img/demo/vehiclekey.jpg" autoplay muted loop playsinline preload="none"></video></div>
+          <div>
+            <a class="ptitle" href="pdfs/ICDCS2022_camera_ready.pdf">Vehicle-Key: A Secret Key Establishment Scheme for LoRa-enabled IoV Communications</a>
+            <p class="authors"><b>Huanqi Yang</b>, Hongbo Liu, Yuezhong Wu, Chengwen Luo, Wei Li, Albert Zomaya, Linqi Song, Weitao Xu</p>
+            <p class="venue">IEEE ICDCS 2022; extended in IEEE TMC</p>
+            <p class="plinks"><a href="pdfs/ICDCS2022_camera_ready.pdf">paper</a> <a href="ppts/ICDCS_18_vehicle_key.pdf">slides</a></p>
+          </div>
+        </article>
 
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2026.1</span>
-      Serving as General Co-chair of the <a href="https://autosys26.github.io/" style="color: #0066cc; text-decoration: none;"><strong>1st AutoSys Workshop</strong></a> @ <a href="https://www.sigmobile.org/mobisys/2026/" style="color: #0066cc; text-decoration: none;">MobiSys 2026</a>.
-    </li>
+        <p class="more"><a href="research.html">Full publication list</a></p>
+      </main>
 
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2025.12</span>
-      Our <a href="https://arxiv.org/abs/2512.20986" style="color: #0066cc; text-decoration: none;"><strong>AegisAgent</strong></a> preprint is available on arXiv.
-    </li>
-
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2025.10</span>
-    <strong>AutoEmbed</strong> has been accepted by SenSys 2026.
-    </li>
-
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2025.7</span>
-      <strong>ChirpKey</strong> has been accepted by IEEE TMC.
-    </li>
-    
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2025.5</span>
-      Invited as a TPC member of <a href="https://www.eventcreate.com/e/bodysys25" style="color: #0066cc; text-decoration: none;">BodySys'25</a>.
-    </li>
-
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2025.5</span>
-      Successfully defended my PhD oral defense.
-    </li>
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2025.5</span>
-      Check out our survey on <a href="https://arxiv.org/pdf/2504.10969" style="color: #0066cc; text-decoration: none;">RF Sensing Security</a>.
-    </li>
-    
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2024.12</span>
-      <strong>iRadar</strong> has been accepted by INFOCOM 2025.
-    </li>
-
-    <details id="details" style="margin-top: 20px;">
-      <summary id="summary" style="cursor: pointer; font-weight: 500; color: #666; padding: 8px 0;">More &#9660;</summary>
-        
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2024.11</span>
-      <strong>TransCompressor</strong> won the <a href="img/eifcom2024_best.jpg" style="color: #d32f2f; text-decoration: none; font-weight: 500;">Best Paper Award</a> in EIFCom 2024.
-    </li>
-    
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2024.8</span>
-      <strong>m2vision</strong> has been accepted by IEEE TMC.
-    </li>
-    
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2024.6</span>
-      <strong>Vehicle-Key</strong> has been accepted by IEEE TMC.
-    </li>
-    
-    <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-      <span style="color: #666; font-weight: 500; margin-right: 15px;">2024.5</span>
-      <strong>InaudibleKey2.0</strong> has been accepted by IEEE/ACM ToN.
-    </li>
-
-      <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2024.5</span>
-        Our book chapter <a href="https://shop.theiet.org/physical-layer-security-for-6g-networks" style="color: #0066cc; text-decoration: none;"><strong>Physical Layer Key Generation for LoRa-Enabled Networks</strong></a> is now published.
-      </li>
-      
-      <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2024.4</span>
-        <a href="https://arxiv.org/html/2403.06201v1" style="color: #0066cc; text-decoration: none;"><strong>LLMTrack</strong></a> and <a href="https://dl.acm.org/doi/10.1145/3662009.3662024" style="color: #0066cc; text-decoration: none;"><strong>XSolar</strong></a> will be featured in workshops at CPS-IoT Week 2024 and MobiSys 2024.
-      </li>
-      
-      <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2024.4</span>
-        Serve as ACM MobiCom'24, ACM MobiSys'24, ACM CCS'24 Artifact Evaluation Committee.
-      </li>
-      
-      <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2024.1</span>
-        <strong>FLoRa+</strong> has been accepted by ACM ToSN.
-      </li>
-      
-      <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2023.9</span>
-        <strong>XGait</strong> has been accepted by SenSys 2023.
-      </li>
-      
-      <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2023.7</span>
-        <strong>W4S</strong> has been accepted by MobiHoc 2023.
-      </li>
-      
-      <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2023.6</span>
-        <strong>mmSign</strong> has been accepted by ACM ToSN.
-      </li>
-      
-      <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2023.3</span>
-        <strong>EMGSense</strong> won the <a href="img/percom2023_best.jpg" style="color: #d32f2f; text-decoration: none; font-weight: 500;">Best Paper Award</a> in PerCom 2023.
-      </li>
-      
-      <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2023.2</span>
-        <strong>FLoRa</strong> has been accepted by IPSN 2023.
-      </li>
-      
-      <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2022.12</span>
-        <strong>EMGSense</strong> has been accepted by PerCom 2023.
-      </li>
-      
-      <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2022.12</span>
-        <strong>ChirpKey</strong> has been accepted by INFOCOM 2023.
-      </li>
-      
-      <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2022.12</span>
-        <strong>WashRing</strong> has been accepted by IEEE TMC.
-      </li>
-      
-      <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2022.7</span>
-        Received ICDCS 2022 travel grant.
-      </li>
-      
-      <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2022.6</span>
-        A LoRa Survey has been accepted by ACM ToSN.
-      </li>
-      
-      <li style="margin-bottom: 2px; padding: 4px 0; border-bottom: 1px solid #eee;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2022.4</span>
-        <strong>Vehicle-Key</strong> has been accepted by ICDCS 2022.
-      </li>
-      
-      <li style="margin-bottom: 2px; padding: 4px 0;">
-        <span style="color: #666; font-weight: 500; margin-right: 15px;">2021.7</span>
-        <strong>ULECGNet</strong> has been accepted by IEEE JBHI.
-      </li>
-    </details>
-  </ul>
-</div>
-    
-      <div class="col-md-pull-8">
-        <h3 class="push-down-3"><span>Selective Projects</span></h3>
-        <ul id="projects">
-          <!-- <h4>LLM for Embedded System automation</h4> -->
-            <div class="row">
-              <div class="col-sm-4">
-                <iframe src="https://www.youtube.com/embed/B7QqENnR1dg" width="270" height="169" allowfullscreen></iframe>
-              </div>
-              <div class="col-sm-8">
-                <p><strong>AutoEmbed: LLM-driven Automated Software Development for Generic Embedded IoT Systems</strong><br>
-                  Huanqi Yang, Mingzhe Li, Mingda Han, Zhenjiang Li, Weitao Xu (2026).<br>
-                  In Proceedings of the 2026 ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys), pp. 362&ndash;376, May 2026.<br>
-                  <a href="https://doi.org/10.1145/3774906.3800466" class="btn btn-primary btn-xs"><font color="white">Paper</font></a>
-                  <a href="https://autoembed.github.io/" class="btn btn-success btn-xs"><font color="white">Project</font></a>
-                </p>
-              </div>
-            </div>
-          
-
-          <!-- <li> -->
-            <!-- <h4>Deep Generative RF Sensing</h4> -->
-            <div class="row">
-              <div class="col-sm-4">
-                <img src="img/Xgait.gif" alt="XGait GIF" width="270">
-              </div>
-              <div class="col-sm-8">
-                <p><strong>XGait: Cross-Modal Translation via Deep Generative Sensing for RF-based Gait Recognition</strong><br>
-                  Huanqi Yang, Mingda Han, Mingda Jia, Zehua Sun, Pengfei Hu, Yu Zhang, Tao Gu, and Weitao Xu (2023).<br>
-                  In Proceedings of the 21st ACM Conference on Embedded Networked Sensor Systems (SenSys), Istanbul, Turkiye, November 2023. <br>
-                  <a href="pdfs/2023_Sensys_XGait camera_ready.pdf" class="btn btn-primary btn-xs"><font color="white">PDF</font></a> <span class="__dimensions_badge_embed__" data-doi="10.1145/3625687.3625792" data-hide-zero-citations="true" data-style="small_rectangle"></span>
-                </p>
-              </div>
-            </div>
-          <!-- </li>
-          <li> -->
-            <!-- <h4>Smart Authentication System</h4> -->
-            <div class="row">
-              <div class="col-sm-4">
-                <img src="img/w4s.gif" alt="Wave-for-Safe GIF" loading="lazy" width="270">
-              </div>
-              <div class="col-sm-8">
-                <p><strong>Wave-for-Safe: Multisensor-based Mutual Authentication for Unmanned Delivery Vehicle Services</strong><br>
-                  Huanqi Yang, Mingda Han, Shuyao Shi, Zhenyu Yan, Guoliang Xing, Jianping Wang, and Weitao Xu (2023).<br>
-                  In Proceedings of the 2023 International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc), Washington D.C., USA, October 2023.           
-                          <a href="pdfs/mobihoc23_w4s.pdf" class="btn btn-primary btn-xs"><font color="white">PDF</font></a> <span class="__dimensions_badge_embed__" data-doi="10.1145/3565287.3610253" data-hide-zero-citations="true" data-style="small_rectangle"></span>
-                </p>
-              </div>
-            </div>
-          <!-- </li>
-          <li> -->
-            <!-- <h4>Secure Key Establishment</h4> -->
-            <div class="row">
-              <div class="col-sm-4">
-                <img src="img/vehiclekey.gif" alt="Vehicle-Key GIF" loading="lazy" width="270">
-              </div>
-              <div class="col-sm-8">
-                <p><strong>Vehicle-Key: A Secret Key Establishment Scheme for LoRa-enabled IoV Communications</strong><br>
-                  Huanqi Yang, Hongbo Liu, Yuezhong Wu, Chengwen Luo, Wei Li, Albert Zomaya, Linqi Song, and Weitao Xu (2022).<br>
-                  In Proceedings of the 42nd International Conference on Distributed Computing Systems (ICDCS), Bologna, Italy, July 2022. <br>
-                  <a href="pdfs/ICDCS2022_camera_ready.pdf" class="btn btn-primary btn-xs"><font color="white">PDF</font></a> <span class="__dimensions_badge_embed__" data-doi="10.1109/ICDCS54860.2022.00081" data-style="small_rectangle"></span>
-                </p>
-              </div>
-            </div>
-          <!-- </li> -->
+      <aside>
+        <h2>Latest news</h2>
+        <ul class="news">
+          <li><span>Jun 2026:</span> <b>Benchmarking Memory Architectures for Mobile Agents</b> appeared at <a href="https://autosys26.github.io/">AutoSys'26</a> @ MobiSys.</li>
+          <li><span>May 2026:</span> <a href="https://doi.org/10.1145/3774906.3800466"><b>AutoEmbed</b></a> is published in SenSys 2026.</li>
+          <li><span>Mar 2026:</span> <a href="https://doi.org/10.1109/TMC.2026.3676689"><b>E²LLM</b></a> is online in IEEE TMC.</li>
+          <li><span>Mar 2026:</span> New preprints: <a href="https://arxiv.org/abs/2603.19584"><b>PowerLens</b></a>, <a href="https://arxiv.org/abs/2603.27571"><b>RAGent</b></a> and <a href="https://arxiv.org/abs/2603.27562"><b>VoxAnchor</b></a>.</li>
+          <li><span>Feb 2026:</span> <a href="https://doi.org/10.1109/TMC.2026.3666887"><b>RFInv</b></a> is online in IEEE TMC.</li>
+          <li><span>Feb 2026:</span> TPC member of <a href="https://mobiquitous.eai-conferences.org/2026/">MobiQuitous</a>, <a href="https://fmsys-org.github.io/2026/">FMSys</a>, <a href="https://www.eventcreate.com/e/headsys26">HeadSys</a>, <a href="https://www.ieeelcn.org/">LCN</a> and MSN 2026.</li>
+          <li><span>Jan 2026:</span> General Co-chair of the <a href="https://autosys26.github.io/">1st AutoSys Workshop</a> at <a href="https://www.sigmobile.org/mobisys/2026/">MobiSys 2026</a>.</li>
+          <li><span>Dec 2025:</span> <a href="https://arxiv.org/abs/2512.20986"><b>AegisAgent</b></a> preprint on arXiv.</li>
+          <li><span>Oct 2025:</span> <a href="https://autoembed.github.io/"><b>AutoEmbed</b></a> accepted by SenSys 2026.</li>
+          <li><span>Jul 2025:</span> <b>ChirpKey</b> accepted by IEEE TMC.</li>
+          <li><span>May 2025:</span> Defended my Ph.D.</li>
+          <li><span>May 2025:</span> Survey on <a href="https://arxiv.org/pdf/2504.10969">RF sensing security</a>.</li>
+          <li><span>Dec 2024:</span> <b>iRadar</b> accepted by INFOCOM 2025.</li>
+          <li><span>Nov 2024:</span> <b>TransCompressor</b> wins the <a href="img/eifcom2024_best.jpg">Best Paper Award</a> at EIFCom 2024.</li>
+          <li><span>Mar 2023:</span> <b>EMGSense</b> wins the <a href="img/percom2023_best.jpg">Best Paper Award</a> at PerCom 2023.</li>
         </ul>
-      </div>
 
-  
-<!-- <div class="col-md-pull-8">
-  <h3 class="push-down-3"><span>Awards
-  </span></h3>
-<ul id="news">
-  <li>
-    Institutional Research Tuition Scholarship, CityU, 2022~2024
-  </li>
-  <li>
-  Outstanding Academic Performance Award, CityU, 2023
-</li>
-  <li>
-    Mark Weiser Best Paper Award, IEEE PerCom, 2023
-  </li>
-  <li>
-    Student Travel Grant Award, IEEE ICDCS, 2022
-  </li>
-  
-</ul>
-</div> -->
-<div class="col-md-pull-8">
-  <h3 class="push-down-3"><span>Awards</span></h3>
-  <ul id="awards">
-    <li><i class="fas fa-award"></i> Best Paper Award, ACM EIFCom, 2024</li>
-    <li><i class="fas fa-award"></i> Institutional Research Tuition Scholarship, CityU, 2022~2025</li>
-    <li><i class="fas fa-award"></i> Outstanding Academic Performance Award, CityU, 2023</li>
-    <li><i class="fas fa-award"></i> Mark Weiser Best Paper Award, IEEE PerCom, 2023</li>
-    <li><i class="fas fa-award"></i> Student Travel Grant Award, IEEE ICDCS, 2022</li>
-  </ul>
-</div>
+        <h2 id="awards">Awards</h2>
+        <ul class="plain">
+          <li>Best Paper Award, ACM EIFCom, 2024</li>
+          <li>Mark Weiser Best Paper Award, IEEE PerCom, 2023</li>
+          <li>Outstanding Academic Performance Award, CityU, 2023</li>
+          <li>Institutional Research Tuition Scholarship, CityU, 2022–2025</li>
+          <li>Student Travel Grant, IEEE ICDCS, 2022</li>
+        </ul>
 
-</div>
+        <h2>Service</h2>
+        <ul class="plain">
+          <li>General Co-chair, AutoSys Workshop @ MobiSys 2026</li>
+          <li>TPC: MobiQuitous, FMSys, HeadSys, LCN, MSN 2026; BodySys 2025</li>
+          <li>Artifact Evaluation: MobiCom, MobiSys, CCS 2024</li>
+        </ul>
+      </aside>
+    </div>
 
-</div>
-
-<!-- end footer -->
-
-  <!-- Back-to-top button -->
-  <a role="button" id="topper" data-toggle="tooltip" data-placement="top" title="Top" class="btn scroll-link" href="#top"><i class="fa fa-fw fa-2x fa-caret-up" aria-hidden="true"></i></a>
-
-  <!-- footer include -->
-  <div w3-include-html="footer.html"></div>
-
-  
-  <!-- jQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-  <!-- Bootstrap JS Library -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-
-  <!-- html file include script | used for navbar and footer -->
-  <script src="js/w3data.js"></script>
-  <script>
-    w3IncludeHTML()
-  </script>
-
-  <!-- Local scripts -->
-  <script src="js/main.js"></script>
-  <script>
-    $(document).ready(function() {
-      $("li#about a").addClass("active");
-      $("li#about a").addClass("hvr-bubble-bottom");
-    });
-  </script>
+    <footer>&copy; 2026 Huanqi Yang</footer>
+  </div>
 
   <!-- GoatCounter analytics -->
-  <script data-goatcounter="https://wwes7.goatcounter.com/count"
-          async src="//gc.zgo.at/count.js"></script>
+  <script data-goatcounter="https://wwes7.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
-  
+
 </html>
