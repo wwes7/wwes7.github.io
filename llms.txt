@@ -1,0 +1,32 @@
+# Huanqi Yang
+
+> Huanqi Yang is a computer science researcher in Hong Kong working on embodied AI and physical agents: AI systems that perceive the physical world through wireless and wearable sensors, keep devices secure at the wireless layer, and act by programming real embedded hardware. Ph.D. in Computer Science, City University of Hong Kong (advisor: Prof. Weitao Xu).
+
+## Research
+
+- Embodied AI and physical agents: closing the loop between perception and action on real devices, without a human engineer in the middle.
+- LLM agents for embedded systems: AutoEmbed (ACM SenSys 2026) is an LLM agent that writes, uploads and debugs firmware on real embedded IoT boards. E²LLM (IEEE TMC 2026) runs LLM inference across distributed edge devices.
+- Wireless and wearable sensing: generative and cross-modal models that recognize gait, gestures, handwriting and health from radio (mmWave, RF) and wearable signals, without cameras. XGait (ACM SenSys 2023), iRadar (IEEE INFOCOM 2025), EMGSense (IEEE PerCom 2023).
+- Physical-layer security: encryption keys and authentication derived from the wireless channel for LoRa, IoT and vehicle networks. ChirpKey (IEEE INFOCOM 2023, IEEE TMC), Vehicle-Key (IEEE ICDCS 2022, IEEE TMC), Wave-for-Safe (ACM MobiHoc 2023).
+
+## Recognition
+
+- Mark Weiser Best Paper Award, IEEE PerCom 2023
+- Best Paper Award, ACM EIFCom 2024
+- Cover article, IEEE Journal of Biomedical and Health Informatics (JBHI)
+- General Co-chair, 1st AutoSys Workshop on Autonomous Mobile Systems @ ACM MobiSys 2026
+- TPC member: MobiQuitous, FMSys, HeadSys, LCN, MSN 2026; BodySys 2025
+
+## Links
+
+- [Homepage](https://huanqiyang.site/): bio, research areas, selected projects, news
+- [Publications](https://huanqiyang.site/research.html): full publication list with PDFs
+- [AutoEmbed project](https://autoembed.github.io/)
+- [Google Scholar](https://scholar.google.com/citations?user=G8Hf6WUAAAAJ)
+- [ORCID 0000-0002-7867-6217](https://orcid.org/0000-0002-7867-6217)
+- [CityU Scholars profile](https://scholars.cityu.edu.hk/en/persons/620cc5e1-0bb1-437f-93ea-b630ff233350)
+- [LinkedIn](https://www.linkedin.com/in/huanqi-yang-3302801a2/)
+
+## Contact
+
+- Email: huanqi.yang@my.cityu.edu.hk

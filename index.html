@@ -6,29 +6,84 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Huanqi Yang</title>
   <meta name="description" content="Huanqi Yang works on embodied AI and physical agents: AI that senses the physical world through wireless and wearable signals, stays secure at the wireless layer, and acts by programming real devices (AutoEmbed, SenSys 2026). Ph.D. from City University of Hong Kong.">
-  <meta name="keywords" content="Huanqi Yang, 杨焕琦, AIoT, LLM agent, AutoEmbed, embedded systems, wireless sensing, mmWave, physical layer security, edge AI, City University of Hong Kong">
+  <meta name="keywords" content="Huanqi Yang, embodied AI, physical agents, AIoT, LLM agent, AutoEmbed, embedded systems, wireless sensing, mmWave, physical layer security, edge AI, City University of Hong Kong">
   <meta name="author" content="Huanqi Yang">
   <link rel="canonical" href="https://huanqiyang.site/">
+  <link rel="alternate" type="text/plain" title="LLM-readable summary" href="/llms.txt">
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Huanqi Yang">
   <meta property="og:description" content="Embodied AI and physical agents: wireless sensing, physical-layer security, and LLM agents that program embedded devices.">
   <meta property="og:url" content="https://huanqiyang.site/">
   <meta property="og:image" content="https://huanqiyang.site/img/huanqi-portrait.jpg">
   <script type="application/ld+json">
+[
   {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": "https://huanqiyang.site/#person",
     "name": "Huanqi Yang",
     "url": "https://huanqiyang.site/",
     "image": "https://huanqiyang.site/img/huanqi-portrait.jpg",
     "email": "mailto:huanqi.yang@my.cityu.edu.hk",
-    "alumniOf": { "@type": "CollegeOrUniversity", "name": "City University of Hong Kong" },
+    "description": "Researcher in Hong Kong working on embodied AI and physical agents: wireless and wearable sensing, physical-layer security, and LLM agents that program embedded devices.",
+    "homeLocation": {
+      "@type": "Place",
+      "name": "Hong Kong"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "City University of Hong Kong",
+      "url": "https://www.cityu.edu.hk/"
+    },
+    "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "degree",
+      "name": "Ph.D. in Computer Science",
+      "recognizedBy": {
+        "@type": "CollegeOrUniversity",
+        "name": "City University of Hong Kong"
+      }
+    },
+    "knowsAbout": [
+      "Embodied AI",
+      "Physical agents",
+      "LLM agents",
+      "Embedded systems",
+      "AIoT",
+      "Edge AI",
+      "Wireless sensing",
+      "mmWave radar sensing",
+      "Wearable sensing",
+      "Physical layer security",
+      "LoRa"
+    ],
+    "award": [
+      "Mark Weiser Best Paper Award, IEEE PerCom 2023",
+      "Best Paper Award, ACM EIFCom 2024"
+    ],
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": "0000-0002-7867-6217"
+    },
     "sameAs": [
+      "https://orcid.org/0000-0002-7867-6217",
       "https://scholar.google.com/citations?user=G8Hf6WUAAAAJ",
       "https://www.linkedin.com/in/huanqi-yang-3302801a2/",
-      "https://autoembed.github.io/"
+      "https://scholars.cityu.edu.hk/en/persons/620cc5e1-0bb1-437f-93ea-b630ff233350",
+      "https://github.com/wwes7"
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "url": "https://huanqiyang.site/",
+    "name": "Huanqi Yang",
+    "mainEntity": {
+      "@id": "https://huanqiyang.site/#person"
+    }
   }
+]
   </script>
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="stylesheet" href="css/site.css">
@@ -47,7 +102,8 @@
           <a href="#projects">Projects</a> -
           <a href="#awards">Awards</a> -
           <a href="https://scholar.google.com/citations?user=G8Hf6WUAAAAJ&amp;hl=en">Scholar</a> -
-          <a href="https://www.linkedin.com/in/huanqi-yang-3302801a2/">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/huanqi-yang-3302801a2/">LinkedIn</a> -
+          <a href="https://orcid.org/0000-0002-7867-6217">ORCID</a>
         </nav>
 
         <p class="titles">
@@ -55,7 +111,7 @@
           <a href="mailto:huanqi.yang@my.cityu.edu.hk">huanqi.yang@my.cityu.edu.hk</a>
         </p>
 
-        <p>I work on <b>embodied AI</b> and <b>physical agents</b>: AI that leaves the screen, perceives the physical world, and acts on it through real devices. My goal is a physical agent that can sense its surroundings, protect what it senses, and reprogram the hardware it runs on, closing the loop between perception and action without a human engineer in the middle.</p>
+        <p>I work on <b>embodied AI</b> and <b>physical agents</b>: AI that leaves the screen, perceives the physical world, and acts on it through real devices. I am based in Hong Kong. My goal is a physical agent that can sense its surroundings, protect what it senses, and reprogram the hardware it runs on, closing the loop between perception and action without a human engineer in the middle.</p>
         <p>I have built each part of that loop. For <b>sensing</b>, I use radio and wearable signals to recognize gait, gestures, handwriting and health, without cameras. For <b>security</b>, I generate encryption keys directly from the wireless channel for LoRa and vehicle networks. For <b>action</b>, <a href="https://autoembed.github.io/">AutoEmbed</a> (SenSys 2026) is an LLM agent that writes, uploads and debugs firmware on real embedded boards, so the agent can deploy new sensing and security functions by itself.</p>
         <p>This work has received the <b>Mark Weiser Best Paper Award</b> at IEEE PerCom 2023, the <b>Best Paper Award</b> at ACM EIFCom 2024, and a cover article in IEEE JBHI. I received my Ph.D. from City University of Hong Kong, advised by Prof. <a href="https://www.weitaoxu.com/">Weitao Xu</a>.</p>
       </div>
